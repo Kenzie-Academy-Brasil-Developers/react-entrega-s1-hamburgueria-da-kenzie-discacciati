@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderCart{
+    width: 310px;
+    height: 65px;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 25px;
+    margin-left: 16px;
+
+}
+.ContainerCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 313px;
+    background: #F5F5F5;
+    border-radius: 0px 0px 5px 5px;
+    margin-left: 17px;
+}
+.ProductsCart{
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+
+}
+.ProductCart{
+    display: flex;
+    flex-direction: row;
+    padding: 1px 19px;
+
+
+}
+.DivImgCart{
+    width: 80px;
+    height: 80px;
+    background: #E0E0E0;
+    border-radius: 5px;
+    margin-bottom: 23px;
+}
+.ImgCart{
+    width: 70px;
+    height: 70px;
+
+}
+.InfosCart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    width: 200px;
+
+}
+.NameProdCart{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 5px;
+}
+.CategoryProdCart{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+    margin-top: 8px;
+}
+.BtnRemoveCart{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD;
+    border: none;
+    cursor: pointer;
+    background: #F5F5F5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 8px;
+
+}
+.SumCart{
+    border-top: 2px solid #E0E0E0;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+.Total{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+
+}
+.SumPrice{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #828282;
+
+}
+.BtnRemoveAllCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    width: 300px;
+    height: 60px;
+    background: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+
+}
+
+@media(min-width: 426px){
+    .HeaderCart{
+        width: 361px;
+    }
+    .ContainerCart{
+        width: 363px;
+        
+    }
+  
+  
+  }
+
+  @media(min-width: 769px){
+    .HeaderCart{
+        width: 361px;
+    }
+    .ContainerCart{
+        width: 363px;
+    }
+
+
+  }

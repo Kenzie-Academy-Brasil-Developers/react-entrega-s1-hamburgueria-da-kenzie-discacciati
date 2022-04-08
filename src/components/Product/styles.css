@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.CardProduct{
+    width: 300px;
+    height: 346px;
+    background: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.ImgProduct{
+    width: 296px;
+    height: 150px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Img{
+    width: 177px;
+    height: 177px;
+}
+.InfosProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    text-align: left;
+    padding-left: 21px;
+    padding-bottom: 23px;
+}
+.NameProduct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 26px;;
+
+}
+.CategoryProduct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    margin-top: 16px;
+}
+.PriceProduct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #27AE60;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+.BtnProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    margin-bottom: 23px;
+
+    width: 106px;
+    height: 40px;
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
