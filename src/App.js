@@ -64,6 +64,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="Header">
         <img className="ImgLogo" src={logoBurguer} alt="Logo"/>       
         <form className="FormSearch" type="submit" onSubmit={handleSubmit(showProducts)}>
           <input
@@ -74,10 +75,11 @@ function App() {
           />
           <button className="btnInputSearch" type="submit">Pesquisar</button> 
         </form> 
+        </div>
       </header>
 
       <main className="main">
-        <ProductsList products={filteredProducts === [] 
+        <ProductsList products={filteredProducts.length === 0 
             ? products 
             : filteredProducts } 
             handleClick={handleClick} /> 

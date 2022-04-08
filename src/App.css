@@ -15,19 +15,22 @@
 }
 
 .App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   width: 100%;
   max-width: 1600px;
   height: 140px;
   background: #F5F5F5;
 }
+.Header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .ImgLogo{
   height: 23px;
   width: 150px;
+  margin-top: 18px;
 }
 
 .FormSearch{
@@ -49,6 +52,7 @@
   line-height: 19px;
   color: #E0E0E0;
   margin-bottom: 14px;
+  margin-top: 15px;
 }
 
 .InputSearch{
@@ -91,7 +95,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  margin: 0 auto;
 }
 
 .App-link {
@@ -113,11 +118,14 @@
     width: 100%;
     max-width: 2200px;
     height: 80px;
+
+  }
+
+  .Header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
   }
   .FormSearch{
     width: 340px;
@@ -137,7 +145,17 @@
     width: 100%;
     max-width: 2200px;
     height: 80px;
+    padding: 20px;
   }
+
+  .Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  
+  }
+
   .FormSearch{
     width: 340px;
   }
