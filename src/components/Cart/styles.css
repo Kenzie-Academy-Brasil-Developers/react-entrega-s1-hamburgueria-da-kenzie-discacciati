@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-.cart{
+.Cart{
     display: flex;
     flex-direction: column;
+    width: 310px;
 }
 
 .HeaderCart{
@@ -21,7 +22,7 @@
     align-items: center;
     margin-top: 20px;
     padding-left: 25px;
-    margin-left: 16px;
+    margin-left: 10px;
 
 }
 .ContainerCart{
@@ -33,8 +34,30 @@
     width: 313px;
     background: #F5F5F5;
     border-radius: 0px 0px 5px 5px;
-    margin-left: 17px;
+    margin-left: 12px;
 }
+.TitleCartEmpty{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-top: 40px;
+
+}
+.DescriptionCartEmpty{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #828282;
+    margin-top: 20px;
+} 
+
 .ProductsCart{
     display: flex;
     flex-direction: column;
@@ -153,19 +176,28 @@
 
 }
 
+.BtnRemoveAllCart:hover{
+    background: #828282;
+    border: 2px solid #828282;
+    color: #E0E0E0;
+  }
+/*------Tablet-----*/
 @media(min-width: 426px){
+    .Cart{
+        width: 300px;
+
+    }
     .HeaderCart{
-        width: 361px;
+        width: 331px;
     }
     .ContainerCart{
-        width: 363px;
+        width: 333px;
         
     }
   
-  
   }
-
-  @media(min-width: 769px){
+/*------------Laptop-------*/
+@media(min-width: 769px){
     .HeaderCart{
         width: 361px;
     }

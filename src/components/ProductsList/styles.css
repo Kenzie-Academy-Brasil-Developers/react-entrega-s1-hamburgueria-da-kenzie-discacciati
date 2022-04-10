@@ -2,28 +2,40 @@
 
 .containerProducts{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 
 }
 
-
+/*----------Tablet---------*/
 @media(min-width: 426px){
     .containerProducts{
         display: flex;
         flex-direction: row;
-        width: 1000px;
+        width: 350px;
         flex-wrap: wrap;
     }    
   
   }
 
-  @media(min-width: 769px){
+/*-------Laptop----------*/  
+@media(min-width: 769px){
     .containerProducts{
         display: flex;
         flex-direction: row;
-        width: 1000px;
+        width: 900px;
         flex-wrap: wrap;
     }
     
   }
+
+/*-----Laptop 1440-------*/
+@media(min-width: 1025px){
+    .containerProducts{
+        display: flex;
+        flex-direction: row;
+        width: 1040px;
+        flex-wrap: wrap;
+    }
+
+}
