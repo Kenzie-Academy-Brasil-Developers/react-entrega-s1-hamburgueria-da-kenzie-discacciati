@@ -3,11 +3,12 @@
 .Cart{
     display: flex;
     flex-direction: column;
-    width: 310px;
+    width: 95vw;
+    margin-left: 6px;
 }
 
 .HeaderCart{
-    width: 310px;
+    width: 280px;
     height: 65px;
     background: #27AE60;
     border-radius: 5px 5px 0px 0px;
@@ -22,7 +23,6 @@
     align-items: center;
     margin-top: 20px;
     padding-left: 25px;
-    margin-left: 10px;
 
 }
 .ContainerCart{
@@ -31,10 +31,9 @@
     justify-content: center;
     align-items: center;
     padding: 20px 10px;
-    width: 313px;
+    width: 285px;
     background: #F5F5F5;
     border-radius: 0px 0px 5px 5px;
-    margin-left: 12px;
 }
 .TitleCartEmpty{
     font-family: 'Inter';
@@ -61,7 +60,7 @@
 .ProductsCart{
     display: flex;
     flex-direction: column;
-    width: 342px;
+    width: 310px;
 
 }
 .ProductCart{
@@ -180,24 +179,31 @@
     background: #828282;
     border: 2px solid #828282;
     color: #E0E0E0;
+    cursor: pointer;
   }
 /*------Tablet-----*/
 @media(min-width: 426px){
-    .Cart{
-        width: 300px;
 
+    .Cart{
+        width: 340px;
     }
+
     .HeaderCart{
         width: 331px;
     }
     .ContainerCart{
-        width: 333px;
+        width: 334px;
         
     }
   
   }
 /*------------Laptop-------*/
 @media(min-width: 769px){
+
+    .Cart{
+        width: 365px;
+    }
+
     .HeaderCart{
         width: 361px;
     }

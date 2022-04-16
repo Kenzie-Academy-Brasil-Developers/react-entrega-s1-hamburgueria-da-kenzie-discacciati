@@ -1,20 +1,11 @@
-import { useState } from "react"
 import "./styles.css"
 
-const Cart =({currentSale, setCurrentSale, cartTotal})=> {
-    console.log(currentSale)
-
-/*     const [productCart, setProductCart] = useState ([])
-
-    const productCartOne =()=>{
-        setProductCart(currentSale.map()) }*/
-    
+const Cart =({currentSale, setCurrentSale})=> {
 
     const removeProductCart = (id)=>{
         setCurrentSale(currentSale.filter((element)=>element.id!==id))
     }
 
-   
     return(
         <div className="Cart">
             <div className="HeaderCart">
