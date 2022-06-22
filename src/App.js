@@ -25,13 +25,17 @@ function App() {
     fetchProducts();
   }, []);
 
-  const handleClick = (id) => {
-    currentSale.find((element) => element.id === id)
-      ? setCurrentSale(currentSale)
-      : setCurrentSale([
-          ...currentSale,
-          products.find((element) => element.id === id),
-        ]);
+  const handleClick = (produto) => {
+    if(currentSale.find((element) => element.id === produto.id)){
+    	const index = currentSale.indexOf(produto);
+    	currentSale[index].quantity += 1;
+      	setCurrentSale([...currentSale]);
+    }
+    else{
+    	produto.quantity = 1 ;
+    	setCurrentSale([...currentSale, produto]);
+    }
+     
   };
 
   return (

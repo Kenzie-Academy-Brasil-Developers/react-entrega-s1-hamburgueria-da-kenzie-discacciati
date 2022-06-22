@@ -2,8 +2,9 @@
 
 .containerProducts{
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
 
 }
 
@@ -12,8 +13,8 @@
     .containerProducts{
         display: flex;
         flex-direction: row;
-        width: 350px;
         flex-wrap: wrap;
+        width: 90%;
     }    
   
   }
@@ -21,10 +22,8 @@
 /*-------Laptop----------*/  
 @media(min-width: 769px){
     .containerProducts{
-        display: flex;
-        flex-direction: row;
-        width: 660px;
-        flex-wrap: wrap;
+
+        width: 98%;
     }
     
   }
@@ -32,9 +31,7 @@
 /*-----Laptop 1440-------*/
 @media(min-width: 1025px){
     .containerProducts{
-        display: flex;
-        flex-direction: row;
-        width: 1000px;
+        width: 99%;
         flex-wrap: wrap;
     }
 

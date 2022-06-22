@@ -2,8 +2,18 @@ import "./styles.css"
 
 const Cart =({currentSale, setCurrentSale})=> {
 
-    const removeProductCart = (id)=>{
-        setCurrentSale(currentSale.filter((element)=>element.id!==id))
+    const removeProductCart = (product)=>{
+
+        if(product.quantity > 1){
+            const index = currentSale.indexOf(product);
+            currentSale[index].quantity -= 1;
+              setCurrentSale([...currentSale]);
+        }
+        else{
+            setCurrentSale(currentSale.filter((element)=>element.id!== product.id))
+        }
+
+        
     }
 
     return(
@@ -26,14 +36,15 @@ const Cart =({currentSale, setCurrentSale})=> {
                                 <div className="InfosCart">
                                     <p className="NameProdCart">{element.name}</p>
                                     <p className="CategoryProdCart">{element.category}</p>
+                                    <p className="CategoryProdCart">Qtd= {element.quantity}</p>
                                 </div>
-                                <button className="BtnRemoveCart" onClick={()=>removeProductCart(element.id)}>Remover</button>
+                                <button className="BtnRemoveCart" onClick={()=>removeProductCart(element)}>Remover</button>
                             </div>
                         )}
                     </div>
                     <div className="SumCart">
                         <p className="Total">Total</p>
-                        <p className="SumPrice">R$ {currentSale.reduce((acc, item)=> item.price + acc, 0).toFixed(2).replace(".",",")} </p>
+                        <p className="SumPrice">R$ {currentSale.reduce((acc, item)=> (item.price * item.quantity) + acc, 0).toFixed(2).replace(".",",")} </p>
                     </div>
                     <button className="BtnRemoveAllCart" onClick={()=>setCurrentSale([])}>Remover Todos</button> 
                     </>

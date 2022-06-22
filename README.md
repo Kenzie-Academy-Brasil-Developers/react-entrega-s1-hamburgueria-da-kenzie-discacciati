@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Hamburgueria Kenzie Burguer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Tabela de Conteúdos</h2>
 
-## Available Scripts
+- [Hamburgueria Kenzie Burguer](#hamburgueria-kenzie-burguer)
+  - [1. Sobre](#1-sobre)
+  - [2. Links Relevantes](#2-links-relevantes)
+  - [3. Tecnologias](#3-tecnologias)
 
-In the project directory, you can run:
+<a name="sobre"></a>
 
-### `npm start`
+## 1. Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto é o front-end de uma aplicação no formato de e-commerce. Foi produzido no framework ReactJs. Consome uma API externa para o carregamento dos produtos.  E possui as funcionalidades de Filtro de Busca dos produtos (que busca por nome e categoria), permite adicionar e remover produtos do carrinho de compras e faz o cálculo do valor total da venda. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a name="links"></a>
 
-### `npm test`
+## 2. Links Relevantes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- <a name="deploy-vercel" href="https://" target="_blank">Deploy @ Vercel</a>
+- <a name="doc-api" href="https://hamburgueria-kenzie-json-serve.herokuapp.com/products" target="_blank">Documentação da API</a>
+- <a name="figma" href="https://www.figma.com/file/Nx4WZEFXnHzeFsxRaw8y18/M3---1B07---Entrega---Hamburgueria-da-Kenzie" target="_blank">Layout do Figma</a>
 
-### `npm run build`
+<a name="problema"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- <a name="react" href="https://pt-br.reactjs.org/" target="_blank">ReactJs</a>
+- <a name="axios" href="https://www.npmjs.com/package/axios" target="_blank">Axios</a>
+- <a name="yup" href="https://www.npmjs.com/package/yup" target="_blank">Yup</a>
+- <a name="styled-comp" href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet" target="_blank">CSS</a>
+- <a name="react-hook-form" href="https://www.npmjs.com/package/react-hook-form" target="_blank">React Hook Form</a>
+- <a name="hookform-resolvers" href="https://www.npmjs.com/package/@hookform/resolvers" target="_blank">@Hookform/Resolvers</a>
+- <a name="react-icons" href="https://www.npmjs.com/package/react-icons" target="_blank">React Icons</a>
+- <a name="yarn" href="https://yarnpkg.com/" target="_blank">Yarn</a>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
