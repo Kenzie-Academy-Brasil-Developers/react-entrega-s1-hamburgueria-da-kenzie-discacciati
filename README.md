@@ -17,7 +17,7 @@ Este projeto é o front-end de uma aplicação no formato de e-commerce. Foi pro
 
 ## 2. Links Relevantes
 
-- <a name="deploy-vercel" href="https://" target="_blank">Deploy @ Vercel</a>
+- <a name="deploy-vercel" href="https://react-entrega-s1-hamburgueria-da-kenzie-discacciati.vercel.app/" target="_blank">Deploy @ Vercel</a>
 - <a name="doc-api" href="https://hamburgueria-kenzie-json-serve.herokuapp.com/products" target="_blank">Documentação da API</a>
 - <a name="figma" href="https://www.figma.com/file/Nx4WZEFXnHzeFsxRaw8y18/M3---1B07---Entrega---Hamburgueria-da-Kenzie" target="_blank">Layout do Figma</a>
 
